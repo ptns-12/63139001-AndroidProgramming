@@ -12,7 +12,7 @@
         android:id="@+id/nutSO1"
         android:text="NÚT SỐ 1"
         android:textSize="20dp"
-        android:textColor="#1432E2"
+        android:textColor="@color/white"
         android:background="#9C27B0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
