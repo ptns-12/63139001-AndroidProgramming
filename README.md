@@ -12,3 +12,7 @@ Các bài thực hành và bài tập được lưu tại đây
 ### Ex2_LinearLayout
 + #### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/VD1)
 <img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Ex2_LinearLayout.png" width = "200">
+
+### Ex3_SimpleSumApp
++ #### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/AppCong)
+<img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Ex3_SimpleSumApp.png" width = "200">
