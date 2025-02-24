@@ -16,3 +16,4 @@ Các bài thực hành và bài tập được lưu tại đây
 ### Ex3_SimpleSumApp
 + #### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/AppCong)
 <img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Ex3_SimpleSumApp.png" width = "200">
+<img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Ex3_SimpleSumAppOnClick.png" width = "200">
