@@ -46,7 +46,32 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        
+        String so1 = editTextSo1.getText().toString();
+        String so2 = editTextSo2.getText().toString();
+
+        if (so1.isEmpty() || so2.isEmpty()) {
+            editTextKQ.setText("Vui lòng nhập số");
+            return;
+        }
+
+        float num1 = Float.parseFloat(so1);
+        float num2 = Float.parseFloat(so2);
+        float ketQua = 0;
+
+        if (v.getId() == R.id.btnCong) {
+            ketQua = num1 + num2;
+        } else if (v.getId() == R.id.btnTru) {
+            ketQua = num1 - num2;
+        } else if (v.getId() == R.id.btnNhan) {
+            ketQua = num1 * num2;
+        } else if (v.getId() == R.id.btnChia) {
+            if (num2 == 0) {
+                editTextKQ.setText("Không thể chia cho 0");
+                return;
+            }
+            ketQua = num1 / num2;
+        }
+        editTextKQ.setText(String.valueOf(ketQua));
 
     }
 }
