@@ -40,7 +40,10 @@ public class MainActivity extends AppCompatActivity {
         nutMH3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //xu ly chuyen man hinh
+                //2 tham so: 1:man hinh hien tai.this;2:man hinh chuyen toi.class
                 Intent intentMH3 = new Intent(MainActivity.this, MH3Activity2.class);
+
                 startActivity(intentMH3);
             }
         });
