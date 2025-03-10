@@ -20,4 +20,9 @@ Các bài thực hành và bài tập được lưu tại đây
 
 ### Ex6_IntentDonGian
 + #### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/ManHinhDonGian)
-<img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Ex6_IntentDonGian.png" width = "200">
+<img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Ex6_IntentDonGian.png" width = "400">
+
+### Ex7_IntentLogin
++ ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/IntentLogin)
+<img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Ex7_IntentLogin.png" width = "400">
+
