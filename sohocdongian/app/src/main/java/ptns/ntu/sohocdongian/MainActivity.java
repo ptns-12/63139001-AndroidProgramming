@@ -61,10 +61,8 @@ public class MainActivity extends AppCompatActivity {
     public void XuLy_Cong(View view) {
         // Lấy số thứ nhất
         int soA = Integer.parseInt(editA.getText().toString());
-
         // Lấy số thứ hai
         int soB = Integer.parseInt(editB.getText().toString());
-
         // Xử lý
         int ketQua = soA + soB;
 
@@ -76,40 +74,31 @@ public class MainActivity extends AppCompatActivity {
     public void XuLy_Tru(View view) {
         // Lấy số thứ nhất
         int soA = Integer.parseInt(editA.getText().toString());
-
         // Lấy số thứ hai
         int soB = Integer.parseInt(editB.getText().toString());
 
         // Xử lý
         int ketQua = soA - soB;
-
         // Hiển thị kết quả
         tvResult.setText(String.valueOf(ketQua));
     }
-
     // Hàm xử lý phép nhân
     public void XuLy_Nhan(View view) {
         // Lấy số thứ nhất
         int soA = Integer.parseInt(editA.getText().toString());
-
         // Lấy số thứ hai
         int soB = Integer.parseInt(editB.getText().toString());
-
         // Xử lý
         int ketQua = soA * soB;
-
         // Hiển thị kết quả
         tvResult.setText(String.valueOf(ketQua));
     }
-
     // Hàm xử lý phép chia
     public void XuLy_Chia(View view) {
         // Lấy số thứ nhất
         int soA = Integer.parseInt(editA.getText().toString());
-
         // Lấy số thứ hai
         int soB = Integer.parseInt(editB.getText().toString());
-
         // Kiểm tra chia cho 0
         if (soB != 0) {
             float ketQua = (float) soA / soB;
