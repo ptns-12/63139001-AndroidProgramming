@@ -41,9 +41,8 @@
             android:layout_height="wrap_content"
             android:text="A = "
             android:textSize="18sp" />
-
         <EditText
-            android:id="@+id/editA"
+            android:id="@+id/edtA"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -65,9 +64,8 @@
             android:layout_height="wrap_content"
             android:text="B = "
             android:textSize="18sp" />
-
         <EditText
-            android:id="@+id/editB"
+            android:id="@+id/edtB"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -121,13 +119,20 @@
         android:gravity="center" />
 
     <!-- Hiển thị kết quả -->
-    <TextView
-        android:id="@+id/tvResult"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="10dp"
-        android:background="#E0E0E0"
-        android:gravity="center"
-        android:textSize="24sp"
-        android:textColor="#D81B60" />
+
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="#E0E0E0"
+            android:gravity="center"
+            android:textColor="#D81B60"
+            android:textSize="24sp" />
+
+
+
 </LinearLayout>
