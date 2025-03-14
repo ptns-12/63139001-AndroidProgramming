@@ -36,4 +36,4 @@ Các bài thực hành và bài tập được lưu tại đây
 
 ### Modern Material Dashboard
 + ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/Dashboard)
-<img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Dashboard3.png" width = "400"> 
+<img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Material%20Dashboard.png" width = "400"> 
