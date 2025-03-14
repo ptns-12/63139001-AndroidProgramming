@@ -33,3 +33,7 @@ Các bài thực hành và bài tập được lưu tại đây
 ### Login Page
 + ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/LoginPage)
 <img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Login%20Page.png" width = "200"> 
+
+### Modern Material Dashboard
++ ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/Dashboard)
+<img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Dashboard3.png" width = "400"> 
