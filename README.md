@@ -29,3 +29,7 @@ Các bài thực hành và bài tập được lưu tại đây
 ### App các phép toán số học cơ bản
 + ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/sohocdongian/app/src/main/java/ptns/ntu/sohocdongian/MainActivity.java)
 <img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/sohocdongian.png" width = "200">
+
+### Login Page
++ ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/LoginPage)
+<img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Login%20Page.png" width = "200"> 
