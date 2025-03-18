@@ -26,6 +26,10 @@ Các bài thực hành và bài tập được lưu tại đây
 + ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/IntentLogin)
 <img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Ex7_IntentLogin.png" width = "400">
 
+### vdListview
++ ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/ListView)
+<img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/listview.png" width = "200">
+
 ### App các phép toán số học cơ bản
 + ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/sohocdongian/app/src/main/java/ptns/ntu/sohocdongian/MainActivity.java)
 <img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/sohocdongian.png" width = "200">
