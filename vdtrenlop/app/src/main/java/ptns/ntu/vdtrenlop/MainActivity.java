@@ -57,4 +57,13 @@ public class MainActivity extends AppCompatActivity {
     public void nutbam6(View v){
         edtkq.setText("6");
     }
+    public void nutbam7(View v){
+        edtkq.setText("7");
+    }
+    public void nutbam8(View v){
+        edtkq.setText("8");
+    }
+    public void nutbam9(View v){
+        edtkq.setText("9");
+    }
 }
