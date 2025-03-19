@@ -74,10 +74,17 @@ public class MainActivity extends AppCompatActivity {
     public void nutbam9(View v){
         edtkq.setText("9");
     }
-    public void tinhKetQua(View v){
+    /*public void tinhKetQua(View v){
         int a = Integer.parseInt(tvA.getText().toString());
         int b = Integer.parseInt(tvB.getText().toString());
         int ketqua = a + b;
         edtkq.setText(String.valueOf(ketqua));
+    }*/
+    public void tinhKetQua(View v){
+        int a = (int)(Math.random() * 10); // Sinh số ngẫu nhiên từ 0-9
+        int b = (int)(Math.random() * 10); // Sinh số ngẫu nhiên từ 0-9
+
+        tvA.setText(String.valueOf(a));
+        tvB.setText(String.valueOf(b));
     }
 }
