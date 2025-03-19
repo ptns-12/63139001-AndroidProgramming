@@ -3,6 +3,7 @@ package ptns.ntu.vdtrenlop;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -13,8 +14,9 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button1, button2, button3, button4, button5, button6, button7, button8, button9;
+    Button button1, button2, button3, button4, button5, button6, button7, button8, button9, button10;
     TextView edtkq;
+    EditText tvA, tvB;
     void timdieukhien(){
         button1 = (Button) findViewById(R.id.button1);
         button2 = (Button) findViewById(R.id.button2);
@@ -22,7 +24,12 @@ public class MainActivity extends AppCompatActivity {
         button4 = (Button) findViewById(R.id.button4);
         button5 = (Button) findViewById(R.id.button5);
         button6 = (Button) findViewById(R.id.button6);
+        button7 = (Button) findViewById(R.id.button7);
+        button8 = (Button) findViewById(R.id.button8);
+        button9 = (Button) findViewById(R.id.button9);
         edtkq = (TextView) findViewById(R.id.edtkq);
+        tvA = (EditText) findViewById(R.id.tv1);
+        tvB = (EditText) findViewById(R.id.tvB);
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         timdieukhien();
-        edtkq = findViewById(R.id.edtkq);
+
+        //edtkq = findViewById(R.id.edtkq);
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
@@ -65,5 +73,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void nutbam9(View v){
         edtkq.setText("9");
+    }
+    public void tinhKetQua(View v){
+        int a = Integer.parseInt(tvA.getText().toString());
+        int b = Integer.parseInt(tvB.getText().toString());
+        int ketqua = a + b;
+        edtkq.setText(String.valueOf(ketqua));
     }
 }
