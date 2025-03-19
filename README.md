@@ -41,3 +41,7 @@ Các bài thực hành và bài tập được lưu tại đây
 ### Modern Material Dashboard
 + ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/Dashboard)
 <img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Material%20Dashboard.png" width = "400"> 
+
+### vdtrenlop
++ ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/vdtrenlop)
+<img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/vdtrenlop.png" width = "200"> 
