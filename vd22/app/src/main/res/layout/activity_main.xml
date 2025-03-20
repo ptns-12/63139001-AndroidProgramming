@@ -13,6 +13,7 @@
         android:layout_height="122dp"
         android:layout_marginStart="162dp"
         android:layout_marginTop="262dp"
+        android:backgroundTint="@color/yellow"
         android:background="@drawable/rounded"
         android:text="Home"
         app:layout_constraintStart_toStartOf="parent"
