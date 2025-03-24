@@ -3,4 +3,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#FFECEEF1</color>
+    <color name="strokeColor">#7AF55454</color>
+    <color name="violet">#E4C9F9</color>
+    <color name="aquamarine">#4EE292</color>
+    <color name="yellow">#FFE99D</color>
+    <color name="whitesmoke">#ECEEF1</color>
+    <color name="thistle">#E9E9FF</color>
+    <color name="skyblue">#C2DEFF</color>
 </resources>

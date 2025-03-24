@@ -20,6 +20,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
+        android:id="@+id/icon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="43dp"
@@ -45,12 +46,12 @@
         android:id="@+id/imageView2"
         android:layout_width="188.16dp"
         android:layout_height="205.91dp"
-        android:layout_marginStart="276dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="492dp"
         android:background="@drawable/polygon1"
         android:rotation="-13"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:layout_width="183dp"
@@ -62,8 +63,8 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
-        android:layout_width="235dp"
-        android:layout_height="246dp"
+        android:layout_width="183dp"
+        android:layout_height="253dp"
         android:layout_marginTop="89dp"
         android:layout_marginEnd="296dp"
         android:background="@drawable/ellipse9"
@@ -97,6 +98,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="1.0" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
