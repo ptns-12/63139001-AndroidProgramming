@@ -10,12 +10,6 @@
 
 
     <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="C2DEFF" />
-
-    <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -89,32 +83,41 @@
         android:id="@+id/button6"
         android:layout_width="366dp"
         android:layout_height="72dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/rectangle2"
         android:backgroundTint="@color/whitesmoke"
         android:text="Button"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="523dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <ImageView
         android:id="@+id/button7"
         android:layout_width="169dp"
         android:layout_height="84dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="25dp"
         android:background="@drawable/rectangle2"
-        android:text="Button"
         android:backgroundTint="@color/thistle"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="622dp" />
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
 
         android:id="@+id/button8"
         android:layout_width="169dp"
         android:layout_height="84dp"
-        android:backgroundTint="@color/skyblue"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="25dp"
         android:background="@drawable/rectangle2"
+        android:backgroundTint="@color/skyblue"
         android:text="Button"
-        tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="622dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -213,81 +216,110 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="224dp"
         android:fontFamily="@font/saira"
         android:text="40 topics"
         android:textSize="14dp"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="226dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/saira"
         android:text="30 videos"
         android:textSize="14dp"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="395dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="92dp"
         android:fontFamily="@font/saira"
         android:text="20 videos"
         android:textSize="14dp"
-        tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="395dp" />
+        app:layout_constraintEnd_toEndOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="120dp"
         android:fontFamily="@font/saira"
         android:text="45 topics"
         android:textSize="14dp"
-        tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="226dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/globe"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="247dp" />
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="@+id/button3"
+        app:srcCompat="@drawable/globe" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/musicnote"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="426dp" />
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="@+id/button4"
+        app:srcCompat="@drawable/musicnote" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/vector"
-        tools:layout_editor_absoluteX="336dp"
-        tools:layout_editor_absoluteY="426dp" />
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="@+id/button5"
+        app:srcCompat="@drawable/vector" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/wrench"
-        tools:layout_editor_absoluteX="336dp"
-        tools:layout_editor_absoluteY="544dp" />
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/button6"
+        app:layout_constraintTop_toTopOf="@+id/button6"
+        app:srcCompat="@drawable/wrench" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/pencilsquare"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="654dp" />
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/button7"
+        app:layout_constraintTop_toTopOf="@+id/button7"
+        app:srcCompat="@drawable/pencilsquare" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/button8"
+        app:srcCompat="@drawable/musicnotelist" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
