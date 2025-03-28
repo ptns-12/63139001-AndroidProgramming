@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         landScapeAdapter = new LandScapeAdapter(this, recyclerViewData);
         //7
         recyclerViewLandScape.setAdapter(landScapeAdapter);
-        
+
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
