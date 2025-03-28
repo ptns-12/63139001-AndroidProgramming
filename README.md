@@ -50,3 +50,7 @@ Các bài thực hành và bài tập được lưu tại đây
 + ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/Figma)
 <img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/btfigma.png" width = "200"> 
 <img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/vdfigma2.png" width = "200"> 
+
+### Vdfigma
++ ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/UsingRecyclerView)
+<img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/UsingRecyclerView.png" width = "200"> 
