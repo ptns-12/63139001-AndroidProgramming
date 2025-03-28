@@ -2,11 +2,11 @@ package ptns.ntu.usingrecyclerview;
 
 public class LandScape {
     String landImageFileName;
-    String landCaption;
+    String landCation;
 
-    public LandScape(String landImageFileName, String landCaption) {
+    public LandScape(String landImageFileName, String landCation) {
         this.landImageFileName = landImageFileName;
-        this.landCaption = landCaption;
+        this.landCation = landCation;
     }
 
     public String getLandImageFileName() {
@@ -18,10 +18,10 @@ public class LandScape {
     }
 
     public String getLandCaption() {
-        return landCaption;
+        return landCation;
     }
 
-    public void setLandCaption(String landCaption) {
-        this.landCaption = landCaption;
+    public void setLandCaption(String landCation) {
+        this.landCation = landCation;
     }
 }
