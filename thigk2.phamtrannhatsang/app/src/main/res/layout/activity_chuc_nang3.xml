@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChucNang3Activity">
+    tools:context=".ChucNang3Activity"
+    >
 
     <LinearLayout
         android:background="@color/blue"
@@ -19,16 +20,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="172dp"
+            android:layout_height="148dp"
+            app:srcCompat="@mipmap/logontu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Danh sách các môn"
+            android:textSize="20dp" />
     </LinearLayout>
 
     <ListView
         android:id="@+id/listViewMH"
-        android:layout_width="409dp"
-        android:layout_height="531dp"
+        android:layout_width="372dp"
+        android:layout_height="490dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="1dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

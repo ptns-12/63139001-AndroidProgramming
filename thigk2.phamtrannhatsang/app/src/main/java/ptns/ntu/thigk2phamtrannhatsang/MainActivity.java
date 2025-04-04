@@ -26,6 +26,24 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intencn2);
             }
         });
+
+        Button btnchucnang3 = findViewById(R.id.btn2);
+        btnchucnang3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intencn3 = new Intent(MainActivity.this,ChucNang3Activity.class);
+                startActivity(intencn3);
+            }
+        });
+
+        Button btnchucnangaboutme = findViewById(R.id.btn4);
+        btnchucnangaboutme.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intencn4 = new Intent(MainActivity.this, AboutMeActivity.class);
+                startActivity(intencn4);
+            }
+        });
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);

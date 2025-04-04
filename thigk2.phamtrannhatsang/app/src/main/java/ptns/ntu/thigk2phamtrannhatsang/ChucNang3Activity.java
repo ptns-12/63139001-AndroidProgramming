@@ -31,10 +31,11 @@ public class ChucNang3Activity extends AppCompatActivity {
         });
 
         dsmonhoc = new ArrayList<String>();
-        dsmonhoc.add("toan");
-        dsmonhoc.add("ly");
-        dsmonhoc.add("hoa");
-        dsmonhoc.add("van");
+        dsmonhoc.add("Tin học đại cương");
+        dsmonhoc.add("Lập trình Java");
+        dsmonhoc.add("Phát triển ứng dụng Web");
+        dsmonhoc.add("Khai phá dữ liệu lớn");
+        dsmonhoc.add("Kinh tế chính trị Mác-lê-nin");
 
         ArrayAdapter<String> adapterMH;
         adapterMH = new ArrayAdapter<>(this,
@@ -49,7 +50,7 @@ public class ChucNang3Activity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String selectitem = dsmonhoc.get(position); // vi tri chon
-                Toast.makeText(ChucNang3Activity.this, "Ban da chon: " + selectitem, Toast.LENGTH_LONG).show();
+                Toast.makeText(ChucNang3Activity.this, "Môn đã chọn: " + selectitem, Toast.LENGTH_LONG).show();
 
 
                 Intent intent = new Intent(ChucNang3Activity.this, ItemChucNang3Activity.class);
