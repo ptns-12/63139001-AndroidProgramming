@@ -54,3 +54,6 @@ Các bài thực hành và bài tập được lưu tại đây
 ### RecyclerView
 + ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/UsingRecyclerView)
 <img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/UsingRecyclerView.png" width = "200"> 
+
+### Thi giua ky
++ ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/thigk2.phamtrannhatsang)
