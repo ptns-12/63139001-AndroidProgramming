@@ -62,3 +62,7 @@ Các bài thực hành và bài tập được lưu tại đây
 <img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/chucnang3thigk.png" width = "200"> 
 <img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/chucnang3thigk2.png" width = "200">
 <img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/gioithieuthongtinthigk.png" width = "200">
+
+### Fragment in Android - Labs-13.1
++ ### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/FragmentEx_Statically)
+<img src = "https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Fragment%20in%20Android%20-%20Labs-13.1.png" width = "200">
