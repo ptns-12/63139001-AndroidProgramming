@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "195276951776",
+    "project_id": "andoird-projects",
+    "storage_bucket": "andoird-projects.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195276951776:android:792a2df8704676e28e8085",
+        "android_client_info": {
+          "package_name": "ptns.ntu.quanlychitieu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBskdLi0HSYRlJpBSO2Vi2XdLZsGeqUDAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
