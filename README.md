@@ -70,3 +70,6 @@ Các bài thực hành và bài tập được lưu tại đây
 ### Ex2_Fragments
 + #### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/FragmentEx_Replace)
 <img src="https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/FragmentEx_Replace.png" width="200"> <img src="https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/FragmentEx_Replace1.png" width="200"> <img src="https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/FragmentEx_Replace2.png" width="200"> <img src="https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/FragmentEx_Replace3.png" width="200">
+
+### Firebase realtime DB
++ #### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/QuanLyChiTieu)
