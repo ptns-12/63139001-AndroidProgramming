@@ -73,3 +73,4 @@ Các bài thực hành và bài tập được lưu tại đây
 
 ### Firebase realtime DB
 + #### [Chi tiết bài tập](https://github.com/ptns-12/63139001-AndroidProgramming/tree/main/QuanLyChiTieu)
+<img src="https://github.com/ptns-12/63139001-AndroidProgramming/blob/main/images/Realtime%20Database%20.png" width="200">
